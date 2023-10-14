@@ -1,1 +1,50 @@
 Set home to change text based on isLogged
+
+auto build did not work
+
+; 3:24:28 PM: $ npm run build
+; 3:24:29 PM: > car_inventory@0.0.0 build
+; 3:24:29 PM: > tsc && vite build
+; 3:24:30 PM: src/App.tsx(5,26): error TS2307: Cannot find module "react-redux" or its corresponding type declarations.
+; 3:24:30 PM: src/components/CarDisplay.tsx(4,37): error TS2307: Cannot find module "@mui/x-data-grid" or its corresponding type declarations.
+; 3:24:30 PM: src/components/CarForm.tsx(3,25): error TS2307: Cannot find module "react-hook-form" or its corresponding type declarations.
+; 3:24:30 PM: src/components/CarForm.tsx(5,39): error TS2307: Cannot find module "react-redux" or its corresponding type declarations.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(1,29): error TS2307: Cannot find module "@reduxjs/toolkit" or its corresponding type declarations.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(13,22): error TS7006: Parameter "state" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(13,29): error TS7006: Parameter "action" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(14,22): error TS7006: Parameter "state" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(14,29): error TS7006: Parameter "action" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(15,23): error TS7006: Parameter "state" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(15,30): error TS7006: Parameter "action" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(16,23): error TS7006: Parameter "state" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/slices/RootSlice.ts(16,30): error TS7006: Parameter "action" implicitly has an "any" type.
+; 3:24:30 PM: src/redux/store.ts(1,32): error TS2307: Cannot find module "@reduxjs/toolkit" or its corresponding type declarations.
+; 3:24:30 PM: 
+
+; build.command" failed                                        
+; 3:24:30 PM: ────────────────────────────────────────────────────────────────
+; 3:24:30 PM: ​
+; 3:24:30 PM:   Error message
+; 3:24:30 PM:   Command failed with exit code 2: npm run build (https://ntl.fyi/exit-code-2)
+; 3:24:30 PM: ​
+; 3:24:30 PM:   Error location
+; 3:24:30 PM:   In Build command from Netlify app:
+; 3:24:30 PM:   npm run build
+; 3:24:30 PM: ​
+; 3:24:30 PM:   Resolved config
+; 3:24:30 PM:   build:
+; 3:24:30 PM:     command: npm run build
+; 3:24:30 PM:     commandOrigin: ui
+; 3:24:30 PM:     publish: /opt/build/repo/dist
+; 3:24:30 PM:     publishOrigin: ui
+; 3:24:32 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+; 3:24:32 PM: Failing build: Failed to build site
+; 3:24:33 PM: Failed during stage "building site": Build script returned non-zero exit code: 2
+; 3:24:33 PM: Finished processing build request in 22.37s
+
+
+
+REFRESHING BREAKS THE Netlify ----
+
+/public/_redirects file added
+/*    /index.html    200 in file
