@@ -1,4 +1,4 @@
-import CarDisplay from "../components/CarDisplay"
+import CarDisplay from "../components/LibDisplay"
 
 function Dashboard() {
   return (
