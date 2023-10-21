@@ -1,4 +1,4 @@
-import CarForm from "./CarForm";
+import BookForm from "./BookForm";
 
 type Props = {
     id?: string[],
@@ -28,8 +28,8 @@ const Modal = ( props: Props ) => {
                             X
                         </p>
                     </div>
-                    <div className="flex flex-col items-center text-center mt-3 p-2">
-                        <CarForm id={props.id } />
+                    <div className="flex flex-col items-center text-center mt-3 p-2 max-h-96 overflow-y-auto">
+                        <BookForm id={props.id } />
                     </div>
                 </div>
             </div>
